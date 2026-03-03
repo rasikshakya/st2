@@ -25,7 +25,7 @@ if not API_KEY:
 genai.configure(api_key=API_KEY)
 
 # Choose a model (e.g., gemini-3.0-flash for speed, or gemini-3.0-pro for higher quality)
-MODEL_NAME = "gemini-3.1-flash"
+MODEL_NAME = "gemini-3-flash"
 
 prompt = st.text_area("Your prompt", "Explain transformers like I’m five.")
 temperature = st.slider("Temperature", 0.0, 1.0, 0.7, 0.1)
